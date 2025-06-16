@@ -59,7 +59,7 @@ makeMobscan: function () { //create Scanning for Mobile device popUp
         Typer.mobscanCount = 0; //reset count
         var ddiv = $("<div id='mosc'>").html(""); // create new blank div and id "mosc"
         ddiv.addClass("accessGranted"); // add class to the div
-        ddiv.html("<h1>SCANNING FOR MOBILE DEVICE</h1>"); // set content of div
+        ddiv.html("<h1>Scanning Target / Recipient</h1>"); // set content of div
         $(document.body).prepend(ddiv); // prepend div to body
         return false;
     },
@@ -68,7 +68,7 @@ makeMobhack: function () { //create Hacking Mobile Device popUp
         Typer.mobhackCount = 0; //reset count
         var ddiv = $("<div id='moha'>").html(""); // create new blank div and id "moha"
         ddiv.addClass("accessGranted"); // add class to the div
-        ddiv.html("<h1>HACKING MOBILE DEVICE</h1>"); // set content of div
+        ddiv.html("<h1>Target / Recipient : Fail</h1>"); // set content of div
         $(document.body).prepend(ddiv); // prepend div to body
         return false;
     },
@@ -77,7 +77,7 @@ makeMobcopy: function () { // make Copy Mobile Device popup
         Typer.mobcopyCount = 0; //reset count
         var ddiv = $("<div id='moco'>").html(""); // create new blank div and id "moco"
         ddiv.addClass("accessGranted"); // add class to the div
-        ddiv.html("<h1>COPYING MOBILE DEVICE</h1>"); // set content of div
+        ddiv.html("<h1>Target / Recipient : Pass</h1>"); // set content of div
         $(document.body).prepend(ddiv); // prepend div to body
         return false;
     },
@@ -86,7 +86,7 @@ makeFirescan: function () { //create Scanning Firewall popUp
         Typer.firescanCount = 0; //reset count
         var ddiv = $("<div id='fisc'>").html(""); // create new blank div and id "fisc"
         ddiv.addClass("accessGranted"); // add class to the div
-        ddiv.html("<h1>SCANNING FIREWALL</h1>"); // set content of div
+        ddiv.html("<h1>Scanning Target / Sender</h1>"); // set content of div
         $(document.body).prepend(ddiv); // prepend div to body
         return false;
     },    
@@ -95,7 +95,7 @@ makeFirebypass: function () { //create Bypassing Firewall popUp
         Typer.firebypassCount = 0; //reset count
         var ddiv = $("<div id='fiby'>").html(""); // create new blank div and id "fiby"
         ddiv.addClass("accessGranted"); // add class to the div
-        ddiv.html("<h1>BYPASSING FIREWALL</h1>"); // set content of div
+        ddiv.html("<h1>Target / Sender : Fail</h1>"); // set content of div
         $(document.body).prepend(ddiv); // prepend div to body
         return false;
     },    
@@ -104,7 +104,7 @@ makeFiredisable: function () { //create Disabling Firewall popUp
         Typer.firedisableCount = 0; //reset count
         var ddiv = $("<div id='fidi'>").html(""); // create new blank div and id "fidi"
         ddiv.addClass("accessGranted"); // add class to the div
-        ddiv.html("<h1>DISABLING FIREWALL</h1>"); // set content of div
+        ddiv.html("<h1>Target / Sender : Pass</h1>"); // set content of div
         $(document.body).prepend(ddiv); // prepend div to body
         return false;
     },
@@ -113,7 +113,7 @@ makeAvscan: function () { //create Scanning Antivirus popUp
         Typer.avscanCount = 0; //reset count
         var ddiv = $("<div id='avsc'>").html(""); // create new blank div and id "avsc"
         ddiv.addClass("accessGranted"); // add class to the div
-        ddiv.html("<h1>SCANNING ANTIVIRUS</h1>"); // set content of div
+        ddiv.html("<h1>Inserting into Data Stream...</h1>"); // set content of div
         $(document.body).prepend(ddiv); // prepend div to body
         return false;
     },
@@ -122,7 +122,7 @@ makeAvbypass: function () { //create Bypassing Antivirus popUp
         Typer.avbypassCount = 0; //reset count
         var ddiv = $("<div id='avby'>").html(""); // create new blank div and id "avby"
         ddiv.addClass("accessGranted"); // add class to the div
-        ddiv.html("<h1>BYPASSING ANTIVIRUS</h1>"); // set content of div
+        ddiv.html("<h1>Data Stream Insertion : Fail</h1>"); // set content of div
         $(document.body).prepend(ddiv); // prepend div to body
         return false;
     },
@@ -131,7 +131,7 @@ makeAvdisable: function () { //create Disable Antivirus popUp
         Typer.avdisableCount = 0; //reset count
         var ddiv = $("<div id='avdi'>").html(""); // create new blank div and id "avdi"
         ddiv.addClass("accessGranted"); // add class to the div
-        ddiv.html("<h1>DISABLING ANTIVIRUS</h1>"); // set content of div
+        ddiv.html("<h1>Data Stream Insertion : Pass</h1>"); // set content of div
         $(document.body).prepend(ddiv); // prepend div to body
         return false;
     },
@@ -140,7 +140,7 @@ makeAlarmdis: function () { //create Alarm Disabled
         Typer.alarmdisCount = 0; //reset count
         var ddiv = $("<div id='aldi'>").html(""); // create new blank div and id "aldi"
         ddiv.addClass("accessGranted"); // add class to the div
-        ddiv.html("<h1>ALARM DISABLED</h1>"); // set content of div
+        ddiv.html("<h1>Man in the Middle : Complete</h1>"); // set content of div
         $(document.body).prepend(ddiv); // prepend div to body
         return false;
     },
