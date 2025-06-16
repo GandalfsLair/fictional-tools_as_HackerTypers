@@ -4,37 +4,13 @@ Data on key codes can be found at keycode.info
 
 Hit the following keys three times and get a pop up with the corresponding message.
 
-1 Scanning for Mobile Device
-2 Hacking Mobile Device
-3 Copying Mobile Device
-4 Scanning Firewall
-5 Bypass Firewll
-6 Disable Firewall
-7 Scan Antivirus
-8 Bypass Antivirus
-9 Disable Antivirus
-0
-Tab Running
-- Scanning Cell Tower
-= Breaching Cell Tower
-esc Remove all Pop ups
-shift Counter Measures Running
-ctrl Virus Detected
-alt Access Granted
-[ Uploading
-] Downloading
-; Malware Running
-'
-# Access Denied
-,
-. Keylogger Deployed
-/
-insert Scanning CCTV
-home CCTV Loop Enabled
-pg up Compiling
-pg dn Cloning
-delete Scanning for Network
-end Scanning
-scr lk Network Located
-pause Mobile Device Located
-
+1 Scanning Target / Recipient...
+2 Target / Recipient : Fail
+3 Target / Recipient : Pass
+4 Scanning Target / Sender...
+5 Target / Sender : Fail
+6 Target / Sender : Pass
+7 Inserting into Data Stream...
+8 Data Stream Insertion : Fail
+9 Data Stream Insertion : Pass
+0 Man in the Middle : Complete
