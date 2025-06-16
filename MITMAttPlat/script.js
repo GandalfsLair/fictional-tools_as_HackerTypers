@@ -59,7 +59,7 @@ makeMobscan: function () { //create Scanning for Mobile device popUp
         Typer.mobscanCount = 0; //reset count
         var ddiv = $("<div id='mosc'>").html(""); // create new blank div and id "mosc"
         ddiv.addClass("accessGranted"); // add class to the div
-        ddiv.html("<h1>Scanning Target / Recipient</h1>"); // set content of div
+        ddiv.html("<h1>Scanning Target / Recipient...</h1>"); // set content of div
         $(document.body).prepend(ddiv); // prepend div to body
         return false;
     },
