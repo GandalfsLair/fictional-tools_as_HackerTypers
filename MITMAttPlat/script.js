@@ -86,7 +86,7 @@ makeFirescan: function () { //create Scanning Firewall popUp
         Typer.firescanCount = 0; //reset count
         var ddiv = $("<div id='fisc'>").html(""); // create new blank div and id "fisc"
         ddiv.addClass("accessGranted"); // add class to the div
-        ddiv.html("<h1>Scanning Target / Sender</h1>"); // set content of div
+        ddiv.html("<h1>Scanning Target / Sender...</h1>"); // set content of div
         $(document.body).prepend(ddiv); // prepend div to body
         return false;
     },    
