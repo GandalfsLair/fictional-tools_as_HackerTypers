@@ -6,3 +6,5 @@ These are a set of HackerTypers that have been created using the basic template 
 
 In this instance I have given them names and assigned functionality that I thought might be useful. 
 If new tooling is created using the generic HackerTyper code I will endeavor to add them here.
+
+
